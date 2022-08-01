@@ -1,25 +1,25 @@
-.add_block{
+.add_block {
   display: flex;
   justify-content: space-between;
   width: 50%;
   margin-left: 60px;
 }
 
-.btn_add_note{
+.btn_add_note {
   color: white;
   width: 200px;
   height: 45px;
   border: none;
   background-color: rgb(69, 95, 241);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
 }
 
-.btn_add_note:hover{
+.btn_add_note:hover {
   background-color: rgba(69, 95, 241, 0.555);
 }
 
-.input{
+.input {
   box-sizing: border-box;
   width: 100%;
   height: 45px;
