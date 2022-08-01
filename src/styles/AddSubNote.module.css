@@ -1,0 +1,53 @@
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 30%;
+  position: absolute;
+  background: rgb(113, 236, 226);
+}
+
+.input{
+  box-sizing: border-box;
+  height: 40px;
+  width: 80%;
+  font-size: 1.2em;
+  border: none;
+}
+
+.btn_add_note{
+  color: white;
+  height: 40px;
+  border: none;
+  background-color: rgb(133, 162, 243);
+  flex: 1 1 30%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn_add_note:hover{
+  background-color: rgb(89, 130, 241);
+}
+
+.text{
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  box-sizing: border-box;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.btn_block{
+  padding: 10px 15px 10px 15px;
+  width: 80%;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
